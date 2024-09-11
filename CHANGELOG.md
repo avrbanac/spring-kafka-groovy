@@ -14,6 +14,7 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 - Spring Boot definition
 - placeholders (applications and sdk)
 - groovy-loader starter (Configuration, Properties, Exception) - WIP
+- common and common-groovy sdk placeholders with some classes - WIP
 
 ## Deprecated
 - nothing
