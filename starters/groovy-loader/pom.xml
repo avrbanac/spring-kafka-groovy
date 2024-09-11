@@ -6,12 +6,23 @@
 
     <parent>
         <groupId>hr.avrbanac.skg</groupId>
-        <artifactId>spring-kafka-groovy</artifactId>
+        <artifactId>starters</artifactId>
         <version>0.1.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>sdk</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>groovy-loader</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
+    </dependencies>
+    
 </project>
